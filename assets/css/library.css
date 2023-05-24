@@ -1,0 +1,39 @@
+/*  VISIBILITY: */
+.hidden{display: none;}
+.visible{display: block;}
+/*  CURSOR: */
+.pointer{cursor: pointer;}
+/* POSITION: */
+.absolute{position: absolute;}
+.fixed{position: fixed;}
+.relative{position: relative;}
+.static{position: static;}
+.sticky{position: sticky;}
+/* DISPLAY: */
+.flex{display: flex;}
+.none{display: none;}
+/* FLEX: */
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+.flex-row{display: flex;  flex-direction: row;}
+.flex-column{display: flex;  flex-direction: column;}
+.spaced-around{justify-content: space-around;}
+.spaced-between{justify-content: space-between;}
+.flex-vertical-centered{align-items: center;}
+.flex-vertical-self-centered{align-self: center;}
+.flex-horizontal-centered{justify-content: center;}
+.flex-horizontal-self-centered{justify-self: center;}
+.flex-both-centered{justify-content: center;align-items: center;}
+.wrap{flex-wrap: wrap;}
+/* TEXT: */
+.text-white{color: white;}
+.text-red{color: darkred;}
+.text-green{color: rgb(42, 196, 106);}
+.text-centered{text-align: center;}
+.text-justified{text-align: justify;}
+/* DROPDOWN: */
+.dropdownClosed{height: 40px;}
+.dropdownOpened{height: 120px;}
+/* THEME: */
+.darkMode{background: black;color: white;}
+.lightMode{background: white;color: black;}
